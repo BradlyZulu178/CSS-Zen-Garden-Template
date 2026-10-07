@@ -1,1 +1,31 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+ .intro{
+    text-align: center;
+ }
+ .preamble {
+    text-align: left;
+ }
+ .explanation {
+    text-align: right;
+ }
+ .requirements {
+    text-align: right;
+ }
+  #firstname {
+    background-color: rgb(197, 191, 183);
+  }
+  * {
+    border: 2px solid rgb(0, 0, 0)
+  }
+
+
+
+
+
+
+  
+body {
+ background-image: url(https://images.steamusercontent.com/ugc/59207304716309121/E6F24837CDE4ADB1D0952FDE362102419D3EE538/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);;
+ background-color: #928383;
+}
+  
