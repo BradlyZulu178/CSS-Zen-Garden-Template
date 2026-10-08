@@ -12,20 +12,43 @@
     text-align: right;
  }
   #firstname {
-    background-color: rgb(197, 191, 183);
+    background-color: rgb(218, 213, 208);
   }
   * {
-    border: 2px solid rgb(0, 0, 0)
+    border: 2px solid rgb(55, 55, 55)
   }
 
+a:link {
+  background-color: rgb(174, 255, 0);
+}
+a:visited {
+  color: rgb(255, 0, 166);
+}
 
 
+body {
+   color: rgb(73, 206, 66);
+   font: 9pt / 13pt 
+}
 
+.intro {
+  background-color: rgba(0, 0, 0, 0.107);
+}
 
+h1 {
+  border: 2px solid green;
+  background-color: rgb(150, 150, 150);
+}
 
+p {
+  background-color: rgba(127, 127, 126, 0.341);
+}
   
 body {
- background-image: url(https://images.steamusercontent.com/ugc/59207304716309121/E6F24837CDE4ADB1D0952FDE362102419D3EE538/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);;
- background-color: #928383;
+   
+background-image: url(Mongral-Shadow-slave-.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #red;
 }
   
