@@ -19,33 +19,90 @@
   }
 
 a:link {
-  background-color: rgb(174, 255, 0);
+  background-color: rgb(158, 199, 71);
 }
 a:visited {
-  color: rgb(255, 0, 166);
+  color: rgba(19, 11, 91, 0.693);
 }
 
 
 body {
-   color: rgb(73, 206, 66);
+   color: rgb(0, 179, 27);
    font: 9pt / 13pt 
 }
 
 .intro {
   background-color: rgba(0, 0, 0, 0.107);
 }
+a:active {
+  background-color: rgb(2, 2, 128);
+}
 
 h1 {
   border: 2px solid green;
-  background-color: rgb(150, 150, 150);
+  background-color: rgba(194, 77, 77, 0.182);
 }
 
 p {
-  background-color: rgba(127, 127, 126, 0.341);
+  background-color: rgba(86, 84, 84, 0.341);
 }
-  
-body {
-   
+
+h1, h2, p {
+  background-color: rgba(122, 92, 92, 0.364);
+  border: 1px solid gray;
+}
+div p {
+  background-color: rgba(131, 120, 120, 0.308);
+}
+div > p {
+  background-color: rgba(119, 105, 99, 0.304);
+  border: 1px solid gray;
+}
+div + p {
+  background-color: rgba(177, 108, 108, 0.304);
+  border: 1px solid gray;
+}
+p ~ ul {
+  background-color: rgba(157, 96, 96, 0.304);
+  border: 1px solid gray;
+}
+a[target] {
+  background-color: rgba(158, 97, 97, 0.422);
+}
+
+p[lang] {
+  background-color: rgba(101, 101, 101, 0.258);
+}
+a[target="_blank"] {
+  background-color: rgba(186, 105, 105, 0.408);
+}
+
+p[lang="it"] {
+  background-color: rgba(113, 113, 113, 0.325);
+}
+  [title~="Mongral"] {
+  border: 5px solid rgb(148, 43, 43);
+}
+[lang|="en"] {
+  background-color: rgba(147, 65, 17, 0.938);
+}
+div[class^="test"] {
+  background: rgba(135, 108, 105, 0.858);
+}
+div[class$="test"] {
+  background: rgba(186, 121, 114, 0.811);
+}
+div[class*="test"] {
+  background: rgb(195, 15, 129);
+}
+p::after { 
+contain: content: none;
+}
+p::before {
+  content: "Read this: ";
+}
+
+body {   
 background-image: url(Mongral-Shadow-slave-.jpg);
 background-size: cover;
 background-repeat: no-repeat;
