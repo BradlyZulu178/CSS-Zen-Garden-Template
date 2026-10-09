@@ -101,11 +101,9 @@ contain: content: none;
 p::before {
   content: "Read this: ";
 }
-
 body {   
 background-image: url(Mongral-Shadow-slave-.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-color: #red;
 }
-  
