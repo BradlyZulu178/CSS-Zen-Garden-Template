@@ -12,14 +12,14 @@
     text-align: right;
  }
   #firstname {
-    background-color: rgb(218, 213, 208);
+    background-color: rgb(208, 198, 188);
   }
   * {
-    border: 2px solid rgb(55, 55, 55)
+    border: 2px solid rgba(96, 70, 70, 0)
   }
 
 a:link {
-  background-color: rgb(158, 199, 71);
+  background-color: rgb(0, 180, 48);
 }
 a:visited {
   color: rgba(19, 11, 91, 0.693);
@@ -27,7 +27,7 @@ a:visited {
 
 
 body {
-   color: rgb(0, 179, 27);
+   color: rgb(4, 194, 32);
    font: 9pt / 13pt 
 }
 
@@ -40,7 +40,7 @@ a:active {
 
 h1 {
   border: 2px solid green;
-  background-color: rgba(194, 77, 77, 0.182);
+  background-color: rgba(160, 88, 88, 0);
 }
 
 p {
@@ -48,22 +48,22 @@ p {
 }
 
 h1, h2, p {
-  background-color: rgba(122, 92, 92, 0.364);
-  border: 1px solid gray;
+  background-color: rgba(255, 0, 0, 0.068);
+  border: 1px solid rgba(255, 0, 0, 0);
 }
 div p {
   background-color: rgba(131, 120, 120, 0.308);
 }
 div > p {
-  background-color: rgba(119, 105, 99, 0.304);
-  border: 1px solid gray;
+  background-color: rgba(119, 105, 99, 0);
+  border: 1px solid rgba(128, 128, 128, 0);
 }
 div + p {
   background-color: rgba(177, 108, 108, 0.304);
   border: 1px solid gray;
 }
 p ~ ul {
-  background-color: rgba(157, 96, 96, 0.304);
+  background-color: rgba(157, 96, 96, 0.152);
   border: 1px solid gray;
 }
 a[target] {
@@ -71,26 +71,26 @@ a[target] {
 }
 
 p[lang] {
-  background-color: rgba(101, 101, 101, 0.258);
+  background-color: rgba(101, 101, 101, 0);
 }
 a[target="_blank"] {
-  background-color: rgba(186, 105, 105, 0.408);
+  background-color: rgba(186, 105, 105, 0);
 }
 
 p[lang="it"] {
-  background-color: rgba(113, 113, 113, 0.325);
+  background-color: rgba(113, 113, 113, 0);
 }
   [title~="Mongral"] {
   border: 5px solid rgb(148, 43, 43);
 }
 [lang|="en"] {
-  background-color: rgba(147, 65, 17, 0.938);
+  background-color: rgba(147, 65, 17, 0);
 }
 div[class^="test"] {
-  background: rgba(135, 108, 105, 0.858);
+  background: rgba(135, 108, 105, 0);
 }
 div[class$="test"] {
-  background: rgba(186, 121, 114, 0.811);
+  background: rgba(186, 121, 114, 0);
 }
 div[class*="test"] {
   background: rgb(195, 15, 129);
@@ -99,7 +99,77 @@ p::after {
 contain: content: none;
 }
 p::before {
-  content: "Read this: ";
+ contain: content: none;
+}
+box:empty {
+  background-color: rgba(183, 105, 96, 0);
+}
+p:first-child {
+  background-color: rgba(192, 63, 63, 0);
+}
+p::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  color: #0d4a0d;
+}
+p::first-line {
+  font-size: 20px;
+  text-decoration: underline; 
+  background-color: rgba(187, 19, 19, 0);
+}
+p:first-of-type {
+  background-color: rgba(157, 22, 22, 0);
+}
+input:focus {
+  background-color: rgba(11, 106, 238, 0.79);
+}
+a:hover {
+  background-color: yellow;
+  font-size: 18px;
+}
+p:last-child {
+  background-color: rgba(199, 25, 25, 0);
+}
+
+li:last-child {
+  background-color:  rgba(150, 47, 47, 0);
+}
+:not(p, h3) {
+  color: rgb(3, 214, 28);
+}
+h3 {
+  color: rgb(230, 15, 172);
+}
+:nth-child(4) {
+  background-color:   rgba(150, 47, 47, 0);
+}
+
+/* Selects the second element of div siblings */
+div:nth-child(2) {
+  background-color: rgba(150, 47, 47, 0);
+}
+
+/* Selects the second li element in a list */
+li:nth-child(2) {
+  background-color: rgba(150, 47, 47, 0);
+}
+p:nth-last-child(2) {
+  background-color: rgba(175, 85, 85, 0);
+} 
+p:nth-last-of-type(2) {
+  background: rgba(131, 61, 61, 0);
+}
+li:nth-last-of-type(3) {
+background: rgba(120, 45, 45, 0);
+}
+div:nth-of-type(2) {
+  background: rgba(140, 60, 60, 0);
+}
+li:nth-of-type(2) {
+  background: rgba(146, 42, 42, 0);
+}
+:nth-of-type(3) {
+  background: rgba(176, 29, 29, 0);
 }
 body {   
 background-image: url(Mongral-Shadow-slave-.jpg);
